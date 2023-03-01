@@ -1,0 +1,44 @@
+body {
+  width: 500px;
+  margin: auto;
+  background-image:url("img5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 250px;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+input[type="text"],
+button {
+  font-size: 1.2rem;
+}
+.actions ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  margin: 2em 0;
+  padding: 0;
+  margin-bottom: 0;
+}
+.actions ul li {
+  margin-right: 1em;
+  cursor: pointer;
+}
+.actions ul li:hover {
+  border-bottom: 1px solid;
+}
+.task-container {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.tasks {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.bin {
+  font-size: 1rem;
+  cursor: pointer;
+}
